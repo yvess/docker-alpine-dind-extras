@@ -8,5 +8,6 @@ RUN apk add --update \
         py-pip \
         curl \
         git \
+        openssh-client \
     && rm -rf /var/cache/apk/* && \
     pip install docker-compose==$DOCKER_COMPOSE_VERSION
