@@ -7,5 +7,6 @@ RUN apk add --update \
         python \
         py-pip \
         curl \
+        git \
     && rm -rf /var/cache/apk/* && \
     pip install docker-compose==$DOCKER_COMPOSE_VERSION
