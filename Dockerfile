@@ -13,3 +13,5 @@ RUN apk add --update \
         openssh-client \
     && rm -rf /var/cache/apk/* && \
     pip install docker-compose==$DOCKER_COMPOSE_VERSION
+
+ADD dockerd-entrypoint.sh /usr/local/bin/
