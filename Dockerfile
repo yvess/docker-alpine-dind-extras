@@ -11,6 +11,7 @@ RUN apk add --update \
         git-perl \
         make \
         openssh-client \
+        tar \
     && rm -rf /var/cache/apk/* && \
     pip install docker-compose==$DOCKER_COMPOSE_VERSION
 
