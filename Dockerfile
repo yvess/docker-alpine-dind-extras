@@ -1,6 +1,6 @@
-FROM docker:1.9-dind
+FROM docker:1.10-dind
 MAINTAINER Yves Serrano <y@yas.ch>
-ENV DOCKER_COMPOSE_VERSION=1.5.1
+ENV DOCKER_COMPOSE_VERSION=1.6.2
 
 RUN apk add --update \
         bash \
